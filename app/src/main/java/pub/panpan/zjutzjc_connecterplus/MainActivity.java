@@ -112,7 +112,6 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println(dbm + minter);
                     if (dbm < -90) {
                         updateflag();
-                        System.out.println("");
                     }
                 }
             };

@@ -7,10 +7,9 @@ import cn.bmob.v3.BmobObject;
  */
 
 public class State extends BmobObject {
-    private String username;
-    private Boolean flag;
-    private Boolean PCstate;
-    private Boolean MBstate;
+    private String username;//登录校园网所需的帐号
+    private Boolean flag;//
+    private Boolean PCstate;//pc端是否在线
 
     public String getUsername() {
         return username;
@@ -36,11 +35,4 @@ public class State extends BmobObject {
         this.PCstate = PCstate;
     }
 
-    public Boolean getMBstate() {
-        return MBstate;
-    }
-
-    public void setMBstate(Boolean MBstate) {
-        this.MBstate = MBstate;
-    }
 }

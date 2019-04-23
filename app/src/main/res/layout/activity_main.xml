@@ -6,10 +6,16 @@
     android:layout_height="match_parent"
     tools:context="pub.panpan.zjutzjc_connecterplus.MainActivity"
     android:orientation="vertical">
+<Button
+    android:id="@+id/main_btlogin"
+    android:layout_width="140dp"
+    android:layout_height="40dp"
+    android:layout_gravity="right"
+    android:text="Setting"/>
 
     <TextView
         android:id="@+id/tvState"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
@@ -19,4 +25,12 @@
         android:layout_width="140dp"
         android:layout_height="80dp"
         android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="@string/Warning"/>
 </LinearLayout>
